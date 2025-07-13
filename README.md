@@ -2,7 +2,7 @@
 - reactjs 
 - react-router-dom
 - tailwind css
-- path alais 
+- path alias 
 - redux toolkit
 - react-query
 - axios
