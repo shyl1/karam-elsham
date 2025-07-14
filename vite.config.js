@@ -28,7 +28,7 @@ export default defineConfig({
       "@routers" : path.resolve(__dirname , './src/routers'),
       "@UI": path.resolve(__dirname , './src/UI'),
       "@store": path.resolve(__dirname , './src/store'),
-      "@feedback" : path.resolve(__dirname , './src/feedback'),
+      "@feedback": path.resolve(__dirname , './src/feedback'),
     }
   },
 })
