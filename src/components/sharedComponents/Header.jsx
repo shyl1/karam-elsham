@@ -7,14 +7,15 @@ export default function Header() {
     const {t , i18n} = useTranslation();
     
     return (
-        <header className=''>
+        <header className='container h-[50px] border-2'>
 
             <img src={Logo} alt="Karam Elsham Logo" className='w-[86px] h-[86px]'/>
 
             <nav>
-                <h1>{t("about.aboutUs")}</h1>
-                <button onClick={() => i18n.changeLanguage("ar")}>عربي</button>
-                <button onClick={() => i18n.changeLanguage("en")}>English</button>
+                <NavLink>
+                    <span>{t("navbar.home")}</span>
+                </NavLink>
+
             </nav>
 
         </header>
