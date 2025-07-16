@@ -1,7 +1,10 @@
+import HeroSection from '@/components/HomeCpmonents/HeroSection'
 import React from 'react'
 
 export default function Home() {
   return (
-    <div>Home</div>
+    <section>
+      <HeroSection />
+    </section>
   )
 }

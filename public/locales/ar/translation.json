@@ -11,10 +11,8 @@
     "values": "قيمنا",
     "vision": "رؤيتنا"
   },
-  "buttons.about us": "اعرف أكتر عنا",
-  "buttons": {
-    "orderNow": "اطلب الان"
-  },
+  "buttons.aboutUs": "اعرف أكتر عنا",
+  "buttons.orderNow": "اطلب الان",
   "contactPage": {
     "branches": "فروعنا",
     "contact": "للتواصل معنا",

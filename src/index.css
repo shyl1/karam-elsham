@@ -5,3 +5,24 @@
     max-width: 1280px;
     margin: auto;
 }
+
+.centering{
+    @apply flex justify-between items-center;
+}
+
+.isActiveStyling {
+    @apply text-[var(--color-text-brown)] bg-btn-bg-yellow rounded-md font-bold;
+}
+
+.menuStyling {
+    @apply p-6 font-bold text-[var(--color-text-brown)] border-b-2 border-yellow-600 hover:bg-yellow-500;
+}
+
+@theme {
+    --color-btn-bg-yellow: #F2A341;
+    --color-text-brown:#592202;
+    --color-brown-hover: rgba(89 , 34 , 2 , 80%);
+
+    /* fonts */
+    --font-body: "Cairo", sans-serif;
+}
