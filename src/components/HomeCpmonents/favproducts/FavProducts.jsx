@@ -33,7 +33,7 @@ export default function FavProducts() {
                 <Carousel responsive={responsive} infinite ssr>
                     {
                         fiveProducts.map((product)=>(
-                            <div key={product.item_id} dir={lang === "ar" ? "rtl" : "ltr"} className="h-[315px] flex items-center ">
+                            <div key={product.item_id} dir={lang === "ar" ? "rtl" : "ltr"} className="h-[315px] flex items-center">
                                 <ProductCard product={product} lang={lang} />
                             </div>
                         ))

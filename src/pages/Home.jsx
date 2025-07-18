@@ -12,7 +12,7 @@ export default function Home() {
         <OfferSection />
       </section>
 
-      <section className='max-sm:mx-2 mt-5 bg-yellow-500'>
+      <section className='mt-5 bg-yellow-500'>
         <FavProducts />
       </section>
     
