@@ -33,7 +33,7 @@ export default function NavBar() {
 
         {/* btns */}
         <div className='hidden md:flex justify-between items-center  gap-5'>
-            <OrderNow textKey="buttons.orderNow" bgColor={"bg-btn-bg-yellow"} textColor={'text-[var(--color-text-brown)]'} hoverColor={"hover:bg-yellow-400"}/>
+            <OrderNow textKey="buttons.orderNow" bgColor={"bg-btn-bg-yellow"} textColor={'text-[var(--color-text-brown)]'} hoverColor={"hover:bg-yellow-400"} paddingX={'px-6'} paddingY={'py-2'}/>
             <LangSwitcher />
         </div>
         </>

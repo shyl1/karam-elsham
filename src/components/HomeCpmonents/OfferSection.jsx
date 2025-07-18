@@ -15,13 +15,13 @@ export default function OfferSection() {
     
 
     return (
-        <section className="container flex flex-col">
+        <section className="container flex flex-col p-3">
             <div className="flex justify-between items-center">
                 <Title textKey="offers.todayOffer" textColor={'text-[var(--color-text-brown)]'}/>
                 <Button textKey="offers.viewOffers" borderColor={'border-black'} borderSize={'border-0'}/>
             </div>
 
-            <div className="grid grid-cols-12 auto-rows-[200px] gap-4 mt-5  ">
+            <div className="grid grid-cols-6 sm:grid-cols-12 auto-rows-[200px] gap-4 mt-5">
                 {/* Offers */}
                 {
                     DynamicOffers.map((offer)=> {
@@ -37,7 +37,7 @@ export default function OfferSection() {
 
                                 {/* overlay on image */}
                                 <div className="absolute inset-0 bg-black/50 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl flex justify-center items-center">
-                                    <OrderNow textKey='buttons.orderNow' textColor={'text-[var(--color-text-brown)]'} bgColor={'bg-yellow-400'} hoverColor={'hover:bg-yellow-500'}/>
+                                    <OrderNow textKey='buttons.orderNow' textColor={'text-[var(--color-text-brown)]'} bgColor={'bg-yellow-400'} hoverColor={'hover:bg-yellow-500'} paddingX={'px-6'} paddingY={'py-2'}/>
                                 </div>
                             </div>
                         )

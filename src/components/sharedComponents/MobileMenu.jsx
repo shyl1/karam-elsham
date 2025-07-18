@@ -46,7 +46,7 @@ export default function MobileMenu() {
 
                         {/* btns */}
                         <div className='flex md:hidden justify-center items-center gap-6 mt-3'>
-                            <OrderNow textKey="buttons.orderNow" bgColor={'bg-text-brown'} textColor={"text-[var(--color-btn-bg-yellow)]"} hoverColor={"hover:bg-[var(--color-brown-hover)]"}/>
+                            <OrderNow textKey="buttons.orderNow" bgColor={'bg-text-brown'} textColor={"text-[var(--color-btn-bg-yellow)]"} hoverColor={"hover:bg-[var(--color-brown-hover)]"} paddingX={'px-6'} paddingY={'py-2'}/>
                             <LangSwitcher />
                         </div>
 
