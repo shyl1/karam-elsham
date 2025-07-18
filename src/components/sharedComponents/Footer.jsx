@@ -7,7 +7,7 @@ export default function Footer() {
 
   const {t} = useTranslation();
   return (
-    <section className="h-[300px] w-full bg-text-brown">
+    <section className="mt-10 h-[300px] w-full bg-text-brown">
 
       <div className="container flex  max-sm:flex-col items-center gap-5 w-full h-full">
         <div className="flex flex-col items-center sm:flex-row gap-5 my-auto w-full h-full">

@@ -5,7 +5,7 @@ export default function WhoAreWe() {
     return (
         <div className="container">
             <div className="flex flex-col gap-3 px-2">
-                <Title textColor={'text-[var(--color-text-brown)]'} paddingX={'px-2'} paddingY={'py-3'} textKey='about.aboutUs' textSize={'text-base md:text-xl'} bgColor={'bg-yellow-400'} />
+                <Title textColor={'text-[var(--color-text-brown)]'} textWidth={'w-[150px]'} paddingX={'px-2'} paddingY={'py-3'} textKey='about.aboutUs' textSize={'text-base md:text-xl'} bgColor={'bg-yellow-400'} />
 
                 <Description textKey='about.karamStory' textColor={'text-black'} textWidth={'lg:w-[961px]'} textSize={'text-sm sm:text-base md:text-[18px] lg:text-[25px]'} />
             </div>
