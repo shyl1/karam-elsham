@@ -1,9 +1,9 @@
 import { useTranslation } from "react-i18next"
 
-export default function Title({textKey , textColor}) {
+export default function Title({textKey , textColor , textSize , bgColor , paddingX , paddingY}) {
     const {t} =useTranslation();
 
     return (
-        <h1 className={`text-sm md:text-xl font-medium font-body ${textColor}`}>{t(textKey)}</h1>
+        <h1 className={`${textSize} ${paddingX} ${paddingY} w-[150px] rounded-md font-medium font-body flex justify-center items-center ${textColor} ${bgColor}`}>{t(textKey)}</h1>
     )
 }

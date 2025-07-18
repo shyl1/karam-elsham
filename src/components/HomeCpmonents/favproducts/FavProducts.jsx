@@ -24,7 +24,7 @@ export default function FavProducts() {
     return (
         <section className="container flex flex-col p-3 h-100">
             <div className="flex justify-between items-center">
-                <Title textKey="products.favs" textColor={'text-[var(--color-text-brown)]'}/>
+                <Title textKey="products.favs" textColor={'text-[var(--color-text-brown)]'} textSize={'text-sm md:text-xl'}/>
                 <Button textKey="products.viewAll" borderColor={'border-[var(color-text-brown)]'} borderSize={'border-2'}/>
             </div>
 

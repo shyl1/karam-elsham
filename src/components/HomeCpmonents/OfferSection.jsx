@@ -17,7 +17,7 @@ export default function OfferSection() {
     return (
         <section className="container flex flex-col p-3">
             <div className="flex justify-between items-center">
-                <Title textKey="offers.todayOffer" textColor={'text-[var(--color-text-brown)]'}/>
+                <Title textKey="offers.todayOffer" textColor={'text-[var(--color-text-brown)]'} bgColor={'bg-transparent'} textSize={"text-sm md:text-xl"} />
                 <Button textKey="offers.viewOffers" borderColor={'border-black'} borderSize={'border-0'}/>
             </div>
 
