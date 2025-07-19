@@ -18,3 +18,11 @@ for encypting and clean --> npm install --save-dev cross-env
 
 #supabase problem
 - when i tried to fetch data it gave me an [] and error null which the cause of it i didnt write a POlicy 
+
+
+## query
+- queryFn: fetchProductsBasedCategory(categoryId),
+ - the error queryFn is not a function
+ - immediately invoking fetchProductsBasedCategory, so instead of passing a function to queryFn, you're passing the result of the function (which is a Promise, not a function).
+
+

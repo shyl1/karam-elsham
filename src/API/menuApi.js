@@ -10,3 +10,5 @@ export async function fetchMenu(){
 
     return products;
 }
+
+

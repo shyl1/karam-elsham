@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 
 export default function Mission() {
     const {t} = useTranslation();
-    const karamMission = t("about.karamValues", { returnObjects: true });
+    const karamMission = t("about.karamMission", { returnObjects: true });
 
     return (
         <div className="container">

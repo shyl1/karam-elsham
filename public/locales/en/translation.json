@@ -1,9 +1,21 @@
 {
   "about": {
     "aboutUs": "Who We Are?",
-    "karamMission": "We believe food is a language of generosity and love. Through Karam El Sham, we aim to: \nServe authentic Syrian dishes with a modern touch \n Use fresh, high-quality ingredients \n Provide fast, friendly, and efficient service \n Expand sustainably while staying true to our roots",
+    "karamMission": [
+    "We believe food is a language of generosity and love.",
+    "Serve authentic Syrian dishes with a modern touch",
+    "Use fresh, high-quality ingredients",
+    "Provide fast, friendly, and efficient service",
+    "Expand sustainably while staying true to our roots"
+    ],
     "karamStory": "Karam El Sham is not just a restaurant – it’s a journey into the heart of Damascus, served right here in Egypt.\n Since 2018, we’ve been crafting authentic Syrian meals with real flavor, generous portions, and the warm spirit of Shamy hospitality. \n From our signature shawarma to our cozy atmosphere, every detail is designed to bring people together over unforgettable food.",
-    "karamValues": "Generosity – In taste, quantity, and attitude\n Authenticity – Preserving our original Syrian recipes \n Innovation – Always improving the customer experience \n Respect – For time, taste, and trust \n Quality – In every bite, every branch, every moment",
+    "karamValues": [
+    "Generosity – In taste, quantity, and attitude",
+    "Authenticity – Preserving our original Syrian recipes",
+    "Innovation – Always improving the customer experience",
+    "Respect – For time, taste, and trust",
+    "Quality – In every bite, every branch, every moment"
+    ],
     "karamVision": "To become the leading destination in Egypt and the Middle East for authentic Syrian cuisine, through consistent quality, exceptional service, and wide-reaching presence.",
     "mission": "Our Mission",
     "para": "With over 15 branches across Egypt, Karam El Sham stands as the most trusted and loved Syrian food chain in the country – a brand built on flavor, culture, and the spirit of home.",

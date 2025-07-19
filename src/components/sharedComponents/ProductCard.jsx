@@ -1,7 +1,7 @@
 import { getLocalizedText } from "@/utils/getLocalizedText"
 import OrderNow from "./OrderNow";
 
-export default function ProductCard({product , lang}) {
+export default function ProductCard({product , lang }) {
     const title = getLocalizedText(product , 'title' , lang);
     const description = getLocalizedText(product, 'description', lang);
 
