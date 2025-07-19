@@ -4,6 +4,8 @@ import Menu from './menu.svg?react';
 import Facebook from './facebook.svg?react';
 import Instagram from './instagram.svg?react';
 import RightArrow from './right-arrow.svg?react';
+import Clock from './clock.svg?react';
+import PhoneCall from './phone-call.svg?react';
 
 
 export {
@@ -13,4 +15,6 @@ export {
     Facebook,
     Instagram,
     RightArrow,
+    Clock,
+    PhoneCall,
 };
