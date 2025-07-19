@@ -3,6 +3,7 @@ import LeftArrow from './left-arrow.svg?react';
 import Menu from './menu.svg?react';
 import Facebook from './facebook.svg?react';
 import Instagram from './instagram.svg?react';
+import RightArrow from './right-arrow.svg?react';
 
 
 export {
@@ -11,4 +12,5 @@ export {
     Menu,
     Facebook,
     Instagram,
+    RightArrow,
 };

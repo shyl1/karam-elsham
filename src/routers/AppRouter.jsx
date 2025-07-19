@@ -1,15 +1,19 @@
 // feed back
 import Error from "@/feedback/Error";
-import About from "@/pages/About";
-import Contact from "@/pages/Contact";
 
 // pages
 import Home from "@/pages/Home";
 import Menu from "@/pages/Menu";
+import About from "@/pages/About";
+import Contact from "@/pages/Contact";
+
 
 // ui
 import MainLayout from "@/UI/MainLayout";
+
+// router dom
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import ProductDetails from "@/pages/ProductDetails";
 
 
 const router = createBrowserRouter([
@@ -33,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: "About",
         element: <About />
+      },
+      {
+        path: 'product/:id',
+        element: <ProductDetails />
       },
     ],
   },

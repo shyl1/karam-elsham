@@ -5,8 +5,10 @@ import useProductsByCategory from '@/hooks/useProductsByCategory';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
+
 export default function Menu() {
     const {i18n} = useTranslation();
+
     const lang = (i18n.resolvedLanguage || i18n.language || 'ar').split('-')[0];
 
     const [selectedCategory, setSelectedCategory] = useState(null);
@@ -22,10 +24,9 @@ export default function Menu() {
 
     if(error) return <p>error: {error.message}</p>
 
-    const productFilter = allProducts.slice(0,10);
+    const productFilter = allProducts?.slice(0,10);
 
     const products = categoryId ? productsByCategory : productFilter;
-
   return (
     <section className='pt-[92px] container'>
 

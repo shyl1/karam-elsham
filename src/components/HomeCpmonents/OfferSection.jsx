@@ -3,6 +3,7 @@ import Button from "../sharedComponents/Button";
 import Title from "../sharedComponents/Title";
 import useDynamicOffers from "@/hooks/useDynamicOffers";
 import OrderNow from "../sharedComponents/OrderNow";
+import { useTranslation } from "react-i18next";
 
 
 export default function OfferSection() {
@@ -11,8 +12,6 @@ export default function OfferSection() {
 
     if(isLoading) return <p>Loading</p>;
     if(isError) return <p>Error:{error.message}</p>;
-
-    
 
     return (
         <section className="container flex flex-col p-3">

@@ -8,7 +8,5 @@ export async function fetchCategory(){
 
     if(error) throw new Error(error.message);
 
-    console.log(Categories);
-
     return Categories;
 }
