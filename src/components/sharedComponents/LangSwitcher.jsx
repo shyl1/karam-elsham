@@ -21,7 +21,7 @@ export default function LangSwitcher() {
 
             {
                 isOpen && (
-                    <ul className="absolute left-0 p-1 bg-white border-gray-200 border-1 z-10">
+                    <ul className="absolute sm:left-0 p-1 bg-white border-gray-200 border-1 z-10">
                         {
                             languages.map(({code , label})=> (
                                 <li key={code} onClick={() => changeLang(code)} className="cursor-pointer hover:bg-gray-100 text-[14px] text-cairo">{label}</li>
