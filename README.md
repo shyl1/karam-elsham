@@ -7,6 +7,8 @@
 - react-query
 - axios
 - svgr vite plugin
+- tailwind pop up -> npm install @headlessui/react
+
 
 ## using i18n tarnslation library 
 for encypting and clean --> npm install --save-dev cross-env
@@ -40,3 +42,8 @@ for encypting and clean --> npm install --save-dev cross-env
 
 
 - An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string
+
+
+- Rendered more hooks than during the previous render" error from React — and it happens only when the number or order of Hooks (e.g. useState, useEffect) changes between renders.
+
+- in tailwind modal dailog panel is the inly child so for backfrop div its a self closing tag like img and input , etc

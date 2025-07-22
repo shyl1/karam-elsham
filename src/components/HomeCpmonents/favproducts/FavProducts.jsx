@@ -7,8 +7,14 @@ import useProduct from "@/hooks/useProduct";
 import { useTranslation } from "react-i18next";
 import ProductCard from "../../sharedComponents/ProductCard";
 import { responsive } from "@/constants";
+import { useState } from "react";
+import ProductDetails from "@/pages/ProductDetails";
 
 export default function FavProducts() {
+
+    // to open modal
+    const [modalOpen, setModalOpen] = useState(false);
+    const [selectedProductId, setSelectedProductId] = useState(null);
 
     const {data:products , error , isLoading , isError} = useProduct();
     const {i18n} = useTranslation();
@@ -20,6 +26,13 @@ export default function FavProducts() {
     if(error) return <p>Error: {error.message}</p>
 
     const fiveProducts = Array.isArray(products) ? products.slice(0, 8) : [];
+
+    
+
+    function openModal(productId) {
+        setSelectedProductId(productId);
+        setModalOpen(true);
+    };
 
     return (
         <section className="container flex flex-col p-3 h-100">
@@ -34,12 +47,16 @@ export default function FavProducts() {
                     {
                         fiveProducts.map((product)=>(
                             <div key={product.item_id} dir={lang === "ar" ? "rtl" : "ltr"} className="h-[315px] flex items-center">
-                                <ProductCard product={product} lang={lang} />
+                                <ProductCard product={product} lang={lang} onClick={()=> openModal(product.item_id)} />
                             </div>
                         ))
                     }
                 </Carousel>
             </div>
+            {/* Modal */}
+            {selectedProductId && (
+                <ProductDetails open={modalOpen} setOpen={setModalOpen} id={selectedProductId} />
+            )}
         </section>
     )
 }

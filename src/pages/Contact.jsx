@@ -1,5 +1,6 @@
 import { Cooks } from "@/assets/image";
 import { Clock, Facebook, Instagram, PhoneCall } from "@/assets/svg";
+import Branches from "@/components/contactComponents/Branches";
 import { useTranslation } from "react-i18next";
 
 export default function Contact() {
@@ -49,6 +50,8 @@ export default function Contact() {
       </div>
 
       {/* branches */}
+
+      <Branches />
 
     </section>
   )
