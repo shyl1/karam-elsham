@@ -15,7 +15,7 @@ export default function NavBar() {
             </NavLink>
 
             {/* menu */}
-            <NavLink to={'/Menu'} className={({isActive})=> `centering py-2 px-4${isActive? `isActiveStyling` : ''}` }>
+            <NavLink to={'/Menu'} className={({isActive})=> `centering py-2 px-4 ${isActive? `isActiveStyling` : ''}` }>
                 {t("navbar.menu")}
             </NavLink>
 
@@ -32,7 +32,7 @@ export default function NavBar() {
         </nav>
 
         {/* btns */}
-        <div className='hidden md:flex justify-between items-center  gap-5'>
+        <div className='hidden md:flex justify-between items-center relative gap-5'>
             <OrderNow textKey="buttons.orderNow" bgColor={"bg-btn-bg-yellow"} textColor={'text-[var(--color-text-brown)]'} hoverColor={"hover:bg-yellow-400"} paddingX={'px-6'} paddingY={'py-2'}/>
             <LangSwitcher />
         </div>

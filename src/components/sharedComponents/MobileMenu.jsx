@@ -29,7 +29,7 @@ export default function MobileMenu() {
 
     return (
         <section className="flex md:hidden">
-            <button className="ml-2 cursor-pointer relative" onClick={()=> setOpen((prev)=> !prev)}>
+            <button className="ml-2 cursor-pointer relative px-5" onClick={()=> setOpen((prev)=> !prev)}>
                 <Menu  className="text-white w-[30px] h-[30px] relative"/>
             </button>
 
